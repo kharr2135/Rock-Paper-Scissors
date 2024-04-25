@@ -1,0 +1,74 @@
+* {
+    font-size: 16px;
+    padding: 0;
+    margin: 0;
+    font-family:Arial;
+    color: white;
+    text-align: center;
+}
+
+body {
+    background-color: rgb(25, 25, 25);
+}
+.titletitle {
+    font-weight: 700;
+    font-size: 32px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+img {
+    height: 75px;
+    
+}
+.rock, .paper, .scissors {
+    background-color: transparent;
+    border: 3px solid white;
+    border-radius: 50%;
+    padding: 35px;
+    margin: 10px;
+    cursor: pointer;
+    transition: box-shadow 0.15s;
+}
+.rock:hover, .paper:hover, .scissors:hover {
+    box-shadow: 8px 8px 8px rgb(0, 0, 0);
+    transition: box-shadow 0.1s;
+}
+.rock:active, .paper:active, .scissors:active {
+    opacity: 0.5;
+    box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.45);
+}
+.js-score {
+    font-weight: 500;
+    margin: 10px;
+}
+.js-result {
+    font-size: 25px;
+    font-weight: 600;
+    margin: 10px;
+}
+.js-moves {
+    margin: 10px;
+}
+.reset-score {
+    padding: 8px 15px;
+    font-size: 15px;
+    color: black;
+    font-weight: 500;
+    background-color: white;
+    margin: 10px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.35s;
+}
+.reset-score:hover {
+    background-color: rgb(241, 80, 80);
+}
+.reset-score:active {
+    opacity: 0.7;
+}
+
+.js-moves img {
+    margin: 5px;
+
+    height: 50px;
+}
